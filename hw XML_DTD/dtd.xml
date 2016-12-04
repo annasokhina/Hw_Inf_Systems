@@ -1,0 +1,10 @@
+<!ELEMENT cats (breed+)>
+<!ELEMENT breed (name, character, care, treat_people)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT character (#PCDATA)>
+<!ELEMENT care (#PCDATA)>
+<!ELEMENT treat_people (#PCDATA)>
+
+<!ATTLIST name
+origin CDATA #IMPLIED
+>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE cats SYSTEM "dtd.xml">
+<cats>
+
+	<breed>
+		<name origin='Эфиопия'>Абиссинская</name>
+		<character> Активная </character>
+		<care> Не требует особого ухода </care>
+		<treat_people> Стремится к общению </treat_people>
+	</breed>
+
+	<breed>
+		<name origin='Великобритания'>Британская короткошерстная</name>
+		<character> Спокойная </character>
+		<care> Не требует особого ухода </care>
+		<treat_people>Безразлична к окружающим</treat_people>
+	</breed>
+
+	<breed>
+		<name origin='Таиланд'>Тайская</name>
+		<character> Игривая</character>
+		<care> Не требует особого ухода </care>
+		<treat_people>Стремится к общению</treat_people>
+	</breed>
+
+	<breed>
+		<name origin='Великобритания'>Скотиш-фолд</name>
+		<character> Игривая</character>
+		<care> Не требует особого ухода </care>
+		<treat_people>Стремится к общению</treat_people>
+	</breed>
+
+	<breed>
+		<name origin='США'>Мейн-кун</name>
+		<character> Игривая</character>
+		<care> Не требует особого ухода </care>
+		<treat_people>Безразлична к окружающим</treat_people>
+	</breed>
+
+	<breed>
+		<name origin='Германия'>Манчкин</name>
+		<character>Активная</character>
+		<care> Не требует особого ухода </care>
+		<treat_people>Стремится к общению</treat_people>
+	</breed>
+</cats>
