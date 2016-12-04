@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Проверка скобок</title>
+
+	<script type="text/javascript">
+		function check_string()
+		{
+			var string = document.getElementById('string').value;
+			var arr = [];
+			var val = true;
+			for (i = 0; i < string.length; ++i) {
+				switch(string[i])
+				{
+					case '(':
+					case '[':
+					case '{':
+						arr.push(string[i]);
+						break;
+					case ')':
+					case ']':
+					case '}':
+						if(arr.length == 0) 
+						{
+							val = false;
+						}
+						else 
+						{
+							if( arr[arr.length - 1] == reverse(string[i]) )
+							{
+								arr.pop();
+							}
+							else
+							{
+								val = false;
+							}
+						}
+						break;
+				}	//switch
+			} //for
+			if(val && !arr.length)
+			{
+				alert('Correct!');
+			}
+			else
+			{
+				alert('Error!!!');
+			}
+		} 
+		function reverse(checking)
+		{
+			if(checking == '}') return '{';
+			if(checking == ')') return '(';
+			if(checking == ']') return '[';
+			return '';
+		}
+	</script>
+</head>
+<body>
+	<h1>Проверка скобок</h1>
+	<input type="text" name="str" id="string"/>
+	<input type="button" name="check" value="Проверить" onclick="check_string();">
+</body>
+</html>
