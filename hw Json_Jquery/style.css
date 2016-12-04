@@ -1,0 +1,19 @@
+body {
+	background-color: #785D6C;
+	color: #FFFFFF;
+	font:  20px/2em sans-serif;
+}
+h1{
+	margin-left: 40px;
+}
+
+ul li {
+	list-style: none;
+}
+ img {
+ 	display: inline-block;
+ 	float:left;
+ 	margin-right: 10px;
+ 	width: 200px;
+ 	height: 200px; 
+ }
